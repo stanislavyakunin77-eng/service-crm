@@ -1,0 +1,36 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
+*.code-workspace
+
+### Maven ###
+.mvn/
+
+### Spring Boot ###
+*.log
+.DS_Store
+
+### Node ###
+node_modules/
+npm-debug.log
+yarn-error.log
+
+### Environment ###
+.env
+.env.local
+.env.*.local
+
+# Frontend dist
+frontend/dist/
+frontend/node_modules/
